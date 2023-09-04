@@ -29,7 +29,7 @@ function realizarSumaContinua() {
       const resultado = numero1 + numero2;
       alert(`La suma de ${numero1} y ${numero2} es igual a ${resultado}.`);
       const decision = prompt(
-        "¿Quieres seguir sumando? (s para sí, cualquier otra tecla para no)"
+        "¿Quieres seguir sumando? (Presiona s para sí, cualquier otra tecla para no)"
       );
       continuarSumando = decision.toLowerCase() === "s";
     } else {

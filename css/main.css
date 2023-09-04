@@ -4,6 +4,22 @@
   font-family: Arial, sans-serif;
 }
 
+.paralaje {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.por-mr {
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 5rem;
+  right: 10rem;
+  z-index: 1;
+}
+
 .parallax {
   background-image: url("../img/Fondo-pantalla-para-1entrega-js.webp"); /* Cambia 'tu-imagen.jpg' por la URL de tu imagen de fondo */
   opacity: 90%;
@@ -29,12 +45,7 @@ span {
 }
 
 span {
-  font-size: 1rem;
-}
-
-p {
-  position: absolute;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 
 .content {
@@ -43,7 +54,7 @@ p {
 }
 
 .start-button {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: rgb(63, 63, 63);
   background-color: #df4;
 }
