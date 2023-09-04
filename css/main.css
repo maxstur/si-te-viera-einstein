@@ -14,25 +14,31 @@
   align-items: center;
   justify-content: center;
   color: white;
-
   text-align: center;
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .parallax-content {
   transform: translateY(5%);
 }
+
 h1,
 span {
   color: rgb(63, 63, 63);
   background-color: #df4;
 }
+
+span {
+    font-size: 12px;
+}
+
 p{
     position: absolute;
     transform: translateY(0%);
     transform: translatex(300%);
     font-size: 0.5rem;
 }
+
 .content {
   padding: 40px;
   text-align: center;
